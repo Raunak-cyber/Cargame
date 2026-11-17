@@ -1,0 +1,6 @@
+{
+  "name": "APEX HORIZON — 3D Open-World Racing",
+  "description": "Next-gen 3D open-world and circuit car racing game built with Three.js, Cannon-es physics, procedural Web Audio, 3D garage customization, AI racers, and Socket.io multiplayer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,11 +1,39 @@
-<div align="center">
+# Apex Horizon — 3D Open-World & Circuit Racing
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A full-stack 3D car racing game built with **Three.js**, **Cannon-es**, **React**, **Node.js**, **Express**, and **Socket.io**.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **3D Open-World & Circuits**: Drive across the Apex Grand Circuit, Metro Expressway Ring (city skyline & intersections), and Obsidian Ridge Touge (mountain switchbacks) with dynamic Day/Sunset/Night cycle, Rain, and Fog.
+- **5 Distinct Sports Cars**: Kurogane R-35 Spec (JDM), Ironclad V8 Hellhound (Muscle), Aurelia S8 Grand Tourer (Luxury GT), Solaris Corsa Evo (Supercar), and Valkyrie V12 GT (Hypercar).
+- **Interactive 3D Garage**: Turntable orbit inspection, paint swatches, 4 wheel designs, rim colors, rear spoilers, headlight signatures, and Engine/Brakes/Handling/Nitro performance upgrades.
+- **Driving Physics & Cameras**: Speed-dependent steering, handbrake drifting, nitro boost, suspension pitch/roll, Cannon-es collision detection, vehicle damage, and 4 camera views (`Chase`, `Cockpit`, `Bumper`, `Cinematic`).
+- **6 Game Modes**: Free Roam, Quick Race (AI opponents with overtaking), Time Trial, Checkpoint Race, Drift Challenge, and Socket.io Multiplayer.
+- **Procedural Web Audio**: RPM-driven engine synthesis, turbo whine, tire screech, nitro jet, impact audio, and toggleable synth driving music.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Controls
 
-</div>
+- `W` / `Arrow Up`: Accelerate
+- `S` / `Arrow Down`: Brake / Reverse
+- `A` / `D` or `Left` / `Right`: Steer
+- `Space`: Handbrake Drift
+- `Shift`: Nitro Boost
+- `C`: Change Camera Mode
+- `Esc` / `P`: Pause Menu
+- Gamepad supported via Web Gamepad API
+
+## Setup & Running
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+### Production Build
+
+```bash
+npm run build
+npm start
+```
